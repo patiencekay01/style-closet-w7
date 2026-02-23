@@ -1,0 +1,7 @@
+Introduction
+A community fashion app for users to explore fashion, purchase directly from the site, and upload their own content. 
+
+Reflection
+This project initially began as a women’s clothing shopping site. However, after reviewing the user stories and the requirement for a community-driven feature, the concept evolved into a fashion feed where users can share and browse outfit posts.
+During development, the multi-step setup process highlighted the importance of planning and environment configuration, as missing package installations caused early issues. I also gained a clearer understanding of how to separate reusable components from page-level views, which improved the structure of the application as the project progressed.
+While the current implementation focuses on posting and viewing outfits, future improvements could include direct product links within posts and enhanced creator features such as engagement analytics or earnings dashboards. These additions would further align the app with real-world fashion creator platforms.

@@ -42,31 +42,28 @@ export default function PostForm({onPostCreated}) {
 
     return (
         <form onSubmit={handleSubmit}>
-      <label htmlFor="username">Username</label>
+      <label htmlFor="username">Username:</label>
       <input
         id="username"
         name="username"
-        placeholder="Username"
         value={username}
         onChange={(e) => setUsername(e.target.value)}
         required
       />
 
-      <label htmlFor="image_url">Image link</label>
+      <label htmlFor="image_url">Upload photo:</label>
       <input
         id="image_url"
         name="image_url"
-        placeholder="Image link"
         value={image_url}
         onChange={(e) => setImageUrl(e.target.value)}
         required
       />
 
-        <label htmlFor="caption">Caption</label>
+        <label htmlFor="caption">Caption:</label>
       <textarea
         id="caption"
         name="caption"
-        placeholder="Caption"
         value={caption}
         onChange={(e) => setCaption(e.target.value)}
       />
