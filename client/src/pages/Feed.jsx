@@ -14,10 +14,10 @@ export default function Feed() {
   }, [])
 
   return (
-    <div>
-      <h3>FEED</h3>
+    <div className="feed-page">
+      <h3 className="feed-title">FEED</h3>
 
-     <div>
+     <div className="feed-list">
         {posts.length > 0 ? (
         posts.map((post) => (
           <PostCard

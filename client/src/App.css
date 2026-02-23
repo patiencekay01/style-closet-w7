@@ -56,3 +56,38 @@
   display: flex;
   gap: 24px;
 }
+
+.post-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.post-username {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 14px;
+}
+
+.post-image img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.post-body {
+  padding: 12px 14px;
+}
+
+.caption {
+  margin: 0;
+  line-height: 1.4;
+}
+
+.feed-list {
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto;
+}
