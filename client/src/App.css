@@ -108,3 +108,55 @@
   width: 100%;
   max-width: 360px;
 }
+
+@media (max-width: 390px) {
+  .home,
+  .feed-page,
+  .post-outfit-page {
+    padding: 16px;
+  }
+
+  .nav-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .nav-links {
+    width: 100%;
+    justify-content: space-between;
+    gap: 12px;
+  }
+
+  .feed-list {
+    max-width: 100%;
+  }
+
+  .post-card {
+    border-radius: 8px;
+  }
+
+  .post-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  form {
+    max-width: 100%;
+  }
+
+  form input,
+  form textarea,
+  form button {
+    font-size: 16px;
+  }
+
+  .homepage-buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .homepage-buttons button {
+    width: 100%;
+  }
+}
