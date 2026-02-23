@@ -6,7 +6,7 @@ export default function Feed() {
 
   useEffect(() => {
     async function fetchData() {
-        const res = await fetch("http://localhost:3000/feed")
+        const res = await fetch("https://style-closet-w7-server.onrender.com/feed")
         const data = await res.json()
         setPosts(data)
     }

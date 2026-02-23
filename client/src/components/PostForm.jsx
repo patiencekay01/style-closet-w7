@@ -13,7 +13,7 @@ export default function PostForm({onPostCreated}) {
         setIsSubmitting(true)
 
     try {
-        const postRes = await fetch("http://localhost:3000/posts", {
+        const postRes = await fetch("https://style-closet-w7-server.onrender.com/posts", {
             method: "POST",
             headers: { 
                 "Content-Type": "application/json", 
